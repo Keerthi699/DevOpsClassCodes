@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage("Checkout the code from github repo with akshat"){
+        stage("Checkout the code from github repo "){
             steps{
-                git url: 'https://github.com/akshu20791/DevOpsClassCodes'
+                git url: 'https://github.com/Keerthi699/DevOpsClassCodes'
                 echo 'checkout done'
             }
         }
